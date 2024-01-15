@@ -5,7 +5,7 @@
 
 Recently, multimodal large models have received widespread attention in academia and industry, and their visual language interaction capabilities have been outstanding. However, in the field of optical character recognition (OCR), that is, the ability to extract textual information from images, the performance of multi-modal large models is relatively weak. With the continuous advancement of technology, this problem has been significantly improved with the advanced performance of large OCR models. OCR large models perform better in terms of recognition accuracy and robustness. Today, OCR large models have become an important tool for multi-modal large models in the OCR field, providing strong support for the development of related applications. We present the OCR model to Qwen-VL-Chat within the framework of the expanding research on multi-modal large models (LMM) and carry out an extensive evaluation on four VQA tasks. The findings demonstrate the effectiveness of OCR in processing challenging visual-language interaction tasks, the significance of OCR in enhancing multi-modal large model text recognition capabilities, and the significant improvement in LMM accuracy on VQA tasks.
 
-<p align="center"><img src="assets/table5.png"></p>
+<p align="center"><img src="assets/table5.png"{:height="60%" width="60%"}></p>
 
 
 ## 📸 VQA visualization effects
@@ -22,7 +22,7 @@ Recently, multimodal large models have received widespread attention in academia
 
 In the field of natural language processing (NLP), the relationship between model size, data volume, computing power and model performance has been extensively studied. However, in the field of optical character recognition (OCR), the exploration of these "scaling laws" is still in its infancy. To fill this gap, we conducted a comprehensive study and in-depth analysis of the relationship between model size, data volume, and computing power and OCR performance. The results reveal that, holding other influencing factors constant, there is a smooth exponential relationship between performance and model size and training data volume. In addition, we also create a large-scale dataset REBU-Syn, containing 6 million real samples and 18 million synthetic samples. Using these rules and data sets, we successfully trained a high-precision OCR model and achieved SOTA accuracy on the OCR test benchmark. **In particular, we found that the OCR model can significantly enhance the capabilities of multi-modal large models and achieve significant accuracy improvements on multiple VQA tasks, proving the great potential of OCR in improving the performance of multi-modal large models.**
 
-<p align="center"><img src="assets/f1.png"></p>
+<p align="center"><img src="assets/f1.png"{:height="60%" width="60%"}></p>
 
 ## 🛠️ Dataset
 
