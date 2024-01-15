@@ -22,13 +22,13 @@ Recently, multimodal large models have received widespread attention in academia
 
 In the field of natural language processing (NLP), the relationship between model size, data volume, computing power and model performance has been extensively studied. However, in the field of optical character recognition (OCR), the exploration of these "scaling laws" is still in its infancy. To fill this gap, we conducted a comprehensive study and in-depth analysis of the relationship between model size, data volume, and computing power and OCR performance. The results reveal that, holding other influencing factors constant, there is a smooth exponential relationship between performance and model size and training data volume. In addition, we also create a large-scale dataset REBU-Syn, containing 6 million real samples and 18 million synthetic samples. Using these rules and data sets, we successfully trained a high-precision OCR model and achieved SOTA accuracy on the OCR test benchmark. **In particular, we found that the OCR model can significantly enhance the capabilities of multi-modal large models and achieve significant accuracy improvements on multiple VQA tasks, proving the great potential of OCR in improving the performance of multi-modal large models.**
 
-<p align="center"><img src="assets/f1.png"{:height="60%" width="60%"}></p>
+<p align="center"><img src="assets/f1.png"{:height="40%" width="40%"}></p>
 
 ## 🛠️ Dataset
 
 In the field of OCR, the quality and diversity of data sets are extremely important. We created a new data set REBU-Syn by collecting and integrating open source data sets. In addition, we utilize the latest generation technology to generate 60M synthetic data MJST+ for additional use.
 
-<p align="center"><img src="assets/table3.png"></p>
+<p align="center"><img src="assets/table3.png"{:height="60%" width="60%"}></p>
 
 ## 🗝️ Scaling Law for OCR
 
