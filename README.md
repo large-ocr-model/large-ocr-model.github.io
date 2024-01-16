@@ -5,7 +5,8 @@
 
 Recently, multimodal large models have received widespread attention in academia and industry, and their visual language interaction capabilities have been outstanding. However, in the field of optical character recognition (OCR), that is, the ability to extract textual information from images, the performance of multi-modal large models is relatively weak. With the continuous advancement of technology, this problem has been significantly improved with the advanced performance of large OCR models. OCR large models perform better in terms of recognition accuracy and robustness. Today, OCR large models have become an important tool for multi-modal large models in the OCR field, providing strong support for the development of related applications. We present the OCR model to Qwen-VL-Chat within the framework of the expanding research on multi-modal large models (LMM) and carry out an extensive evaluation on four VQA tasks. The findings demonstrate the effectiveness of OCR in processing challenging visual-language interaction tasks, the significance of OCR in enhancing multi-modal large model text recognition capabilities, and the significant improvement in LMM accuracy on VQA tasks.
 
-<p align="center"><img src="assets/table5.png"{:height="60%" width="60%"}></p>
+
+<div align="center"><img src="assets/table5.png" style="zoom:60%" alt="table5"/></div>
 
 
 ## 📸 VQA visualization effects
