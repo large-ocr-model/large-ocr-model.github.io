@@ -28,7 +28,7 @@ In the field of natural language processing (NLP), the relationship between mode
 In the field of OCR, the quality and diversity of data sets are extremely important. We created a new data set REBU-Syn by collecting and integrating open source data sets. In addition, we utilize the latest generation technology to generate 60M synthetic data MJST+ for additional use.
 
 <p align="center"><img src="assets/table3.png"></p>
-You should follow the instructions in [Data.md](./Data.md) to manage your dataset.
+You should follow the instructions in [Data](https://github.com/large-ocr-model/large-ocr-model.github.io/Data.md) to manage your dataset.
 
 ## 🗝️ Scaling Law for OCR
 
