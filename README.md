@@ -7,7 +7,6 @@ Recently, multimodal large models have received widespread attention in academia
 
 <p align="center"><img src="assets/table5.png"></p>
 
-
 ## 📸 VQA visualization effects
 
 - In the visual analysis of STVQA and TextVQA tasks, we found that the Qwen-VL_Chat large model has certain challenges in capturing small text or correctly identifying text content. However, when OCR technology is introduced, large models can more accurately understand the text content in images, such as identifying small texts more effectively in the STVQA task. Correctly correct "Hongte" to "Honghe" and "57" to "22" in the TextVQA task.
@@ -24,13 +23,12 @@ In the field of natural language processing (NLP), the relationship between mode
 
 <p align="center"><img src="assets/f1.png"></p>
 
-
-
 ## 🛠️ Dataset
 
 In the field of OCR, the quality and diversity of data sets are extremely important. We created a new data set REBU-Syn by collecting and integrating open source data sets. In addition, we utilize the latest generation technology to generate 60M synthetic data MJST+ for additional use.
 
 <p align="center"><img src="assets/table3.png"></p>
+You should follow the instructions in [Data.md](https://github.com/large-ocr-model/large-ocr-model.github.io/blob/main/Data.md) to manage your dataset. Currently, in order to avoid potential disputes, we provide download links for all raw data.
 
 ## 🗝️ Scaling Law for OCR
 
