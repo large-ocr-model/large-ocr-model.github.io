@@ -7,6 +7,7 @@ Recently, multimodal large models have received widespread attention in academia
 
 <p align="center"><img src="assets/table5.png"></p>
 
+
 ## 📸 VQA visualization effects
 
 - In the visual analysis of STVQA and TextVQA tasks, we found that the Qwen-VL_Chat large model has certain challenges in capturing small text or correctly identifying text content. However, when OCR technology is introduced, large models can more accurately understand the text content in images, such as identifying small texts more effectively in the STVQA task. Correctly correct "Hongte" to "Honghe" and "57" to "22" in the TextVQA task.
@@ -23,6 +24,8 @@ In the field of natural language processing (NLP), the relationship between mode
 
 <p align="center"><img src="assets/f1.png"></p>
 
+
+
 ## 🛠️ Dataset
 
 In the field of OCR, the quality and diversity of data sets are extremely important. We created a new data set REBU-Syn by collecting and integrating open source data sets. In addition, we utilize the latest generation technology to generate 60M synthetic data MJST+ for additional use.
@@ -31,6 +34,7 @@ In the field of OCR, the quality and diversity of data sets are extremely import
 
 You should follow the instructions in [Data.md](https://github.com/large-ocr-model/large-ocr-model.github.io/blob/main/Data.md) to manage your dataset.
 
+
 ## 🗝️ Scaling Law for OCR
 
 #### Core conclusion: The scaling law holds in the field of OCR. There exist smooth power laws between the size of the model, the volume of data, computation and performance.
@@ -38,7 +42,10 @@ You should follow the instructions in [Data.md](https://github.com/large-ocr-mod
 By exploring the impact of the parameter amount, calculation amount, and data amount of small and medium-sized models on accuracy in multiple OCR methods, we successfully proved that the Power-Law law exists in these three dimensions in the OCR field. This discovery provides an important theoretical basis for OCR model design.
 
 <p align="center"><img src="assets/f2.png"></p>
+
 You should follow the instructions in [Inference.md](https://github.com/large-ocr-model/large-ocr-model.github.io/blob/main/Inference.md) to get the model and infer the accuracy mentioned in the paper.
+
+
 
 ## Conclusion
 

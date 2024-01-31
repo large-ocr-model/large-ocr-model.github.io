@@ -100,7 +100,8 @@ Then, organize the data as follows:
 │   └── SVTP
 
 ```
-
+### Data Generation
+We generated MJST+(60M) using TextRecognitionDataGenerator and SynthText. For specific generation methods, please refer to [GenData.md](https://github.com/large-ocr-model/large-ocr-model.github.io/blob/main/generate_data_by_trgd/GenData.md)
 ### Acknowledgement
 
 We sincerely thank all the constructors of the 20 datasets used in REBU-Syn.
@@ -108,4 +109,3 @@ We sincerely thank all the constructors of the 20 datasets used in REBU-Syn.
 - [PARSeq](https://huggingface.co/docs/transformers/main/model_doc/blip-2): the dataset we built upon. Thanks for their wonderful work!
 - [Union14M](https://github.com/Mountchicken/Union14M/tree/main): organizes a challenging STR training data. Don't forget to check this great open-source work if you don't know it before!
 
-  
