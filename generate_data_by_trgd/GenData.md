@@ -3,10 +3,10 @@ We leveraged the [TextRecognitionDataGenerator](https://github.com/Belval/TextRe
 ### 1. Preparation
 
 1. list_gallery: Randomly selected 700,000 text corpora were obtained from [corpora](https://www.english-corpora.org/corpora.asp).
-2. Acquired 8,000 natural scene images as backgrounds from [SynthText](https://academictorrents.com/details/2dba9518166cbd141534cbf381aa3e99a087e83c).
+2. background imgs: Acquired 8,000 natural scene images as backgrounds from [SynthText](https://academictorrents.com/details/2dba9518166cbd141534cbf381aa3e99a087e83c).
 
 
-### 2.Run for gan data
+### 2. Run for gan data
 
 
 For convenience, assume that you have placed the corpora data in the `raw_gallery_data_folder`. Use the following script to generate a `specified number` of `list_gallery.txt`.
