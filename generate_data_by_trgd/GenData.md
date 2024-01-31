@@ -20,6 +20,7 @@ Assume that you have placed the background data in `BG_IMG_PATH`, then run the f
 sh run_gen_data.sh
 ```
 The final format of the generated data is as follows:
+```none
 .
 ├── data
 │   ├── Label_data.txt
@@ -28,7 +29,7 @@ The final format of the generated data is as follows:
 └── labels
     └── details
         └── list_gallery.txt
-
+```
 
 ### Acknowledgement
 
