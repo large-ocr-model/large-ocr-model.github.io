@@ -1,5 +1,5 @@
 ## MJST+ DataSet Generation
-We leveraged the [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator) and [SynthText](https://github.com/ankush-me/SynthText)to generate the MJST+ dataset, with the specific generation process outlined as follows.
+We leveraged the [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator) and [SynthText](https://github.com/ankush-me/SynthText) to generate the MJST+ dataset, with the specific generation process outlined as follows.
 ### 1. Preparation
 
 1. list_gallery: Randomly selected 700,000 text corpora were obtained from [corpora](https://www.english-corpora.org/corpora.asp).
