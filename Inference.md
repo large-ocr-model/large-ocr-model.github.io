@@ -65,7 +65,7 @@ CLIP4STR-B's word accuracy on the  Union14M benchmark.
 
 ## Inference
 
-1. Download the CLIP4STR-B* from [BaiduYun](https://pan.baidu.com/s/1GA2E1piNV8Ts1L19swfmBw)(wjk8)
+1. Download the CLIP4STR-B* from [BaiduYun](https://pan.baidu.com/s/1GA2E1piNV8Ts1L19swfmBw)(wjk8) or [GoogleYun](https://drive.google.com/file/d/1Fj2KCH8gvlyMBeGvsy8ZhHYO_IIXr76u/view?usp=sharing)
 2. Run the following command to inference on test data:
 
 ​    Inference CLIP4STR-B* on six common benchmark
